@@ -1,0 +1,63 @@
+# Trabajo-hoy-16-03-2023
+1. 3O Elementos html:
+- !DOCTYPE html: Indica al navegador que el documento está basado en el estándar HTML5.
+- html: Representa la raíz de un documento HTML.
+- head: Representa una colección de metadatos acerca del documento.
+- title: Etiqueta usada para definir el título de la página web.
+- link: Se usa para enlazar recursos externos al documento HTML. El ejemplo más común son las hojas de estilos CSS.
+- meta: Etiqueta usada para definir otros metadatos que no se pueden definir con una etiqueta HTML especifica.
+- style: Etiquetas usadas para introducir código CSS en línea, es decir, en el propio documento HTML.
+- body: Al contrario que la etiqueta de metadatos.
+- nav: Usadas para definir el contenido que será la sección de navegación de la web.
+- main: Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento.
+- section: Define una sección del documento.
+- article: Define contenido independiente de la web.
+- aside:Dentro de estas etiquetas suele alojarse el contenido adicional de la web.
+- h1,h2,h3,h4,h5,h6: Son etiquetas HTML muy importantes, ya que son usadas para jerarquizar el contenido de la web.
+- header: Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc.
+- foteer: Usadas para definir el pie de página.
+- embed: Usada para integrar una aplicación o contenido interactivo externo que no suele ser HTML. 
+- object: Utilizada llamar a un recurso externo de la web. Este recurso será tratado como una imagen, o un recurso externo para ser procesado por un plugin.
+- video: Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas.
+- audio: Usada para cargar en una web un archivo de audio o stream de audio.
+- iframe: Es una etiqueta que sirve para anidar otro documento HTML dentro del documento principal.
+- table: Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas.
+- caption: Usada para indicar el título de la tabla.
+- td: Usada para definir una celda de una tabla.
+- th: Etiqueta que se usa para definir el encabezado de una celda
+- form: Etiqueta de apertura y cierre de un formulario de una página web.
+- fieldset: Etiqueta que representa un conjunto o agrupación de elementos de un formulario.
+- label: Se usa para definir el nombre o título de un control del formulario.
+- input: Pinta un campo de introducción de datos para el usuario. 
+- button: Etiqueta utilizada para representar un botón en el formulario.
+2. 30 elementos css:
+- table: estilo tabla.
+- list-item: estilo ítem de lista.
+- inline-block: estilo en línea con ancho determinado.
+- flex: estilo flexible, utilizado sobre todo en diseños adaptados a dispositivos.
+- none: no mostrar el elemento.
+- head:	Almacena información de servicio, como estilos o título de página.
+- p: Define un parrafo
+- span: Define un elemento de linea.
+- img: Insertar una imagen.
+- a: Agrega un enlace.
+- hr: Crea una línea horizontal.
+- br:	Establece un salto de línea.
+- b, strong:	Pone un texto en negrita.
+- i: Pone en cursiva un texto.
+- u: Subraya un texto.
+- s, strike: Aplica el formato de tachado.
+- label: Especifica una etiqueta de texto para la etiqueta. 
+- font:	Especifica estilos de fuente
+- small: Disminuye el tamaño de fuente en uno en comparación con el texto sin formato
+- li: Crea un elemento de lista
+- ul: Crea una lista con viñetas (desordenada)
+- table: Crea una tabla
+-
+-
+-
+-
+-
+-
+-
+-
