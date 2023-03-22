@@ -23,10 +23,10 @@
 - iframe: Es una etiqueta que sirve para anidar otro documento HTML dentro del documento principal.
 - table: Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas.
 - caption: Usada para indicar el título de la tabla.
--
--
--
--
--
--
--
+- td: Usada para definir una celda de una tabla.
+- th: Etiqueta que se usa para definir el encabezado de una celda
+- form: Etiqueta de apertura y cierre de un formulario de una página web.
+- fieldset: Etiqueta que representa un conjunto o agrupación de elementos de un formulario.
+- label: Se usa para definir el nombre o título de un control del formulario.
+- input: Pinta un campo de introducción de datos para el usuario. 
+- button: Etiqueta utilizada para representar un botón en el formulario.
