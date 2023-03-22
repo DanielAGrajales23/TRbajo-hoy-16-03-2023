@@ -30,3 +30,34 @@
 - label: Se usa para definir el nombre o título de un control del formulario.
 - input: Pinta un campo de introducción de datos para el usuario. 
 - button: Etiqueta utilizada para representar un botón en el formulario.
+2. 30 elementos css:
+- table: estilo tabla.
+- list-item: estilo ítem de lista.
+- inline-block: estilo en línea con ancho determinado.
+- flex: estilo flexible, utilizado sobre todo en diseños adaptados a dispositivos.
+- none: no mostrar el elemento.
+- head:	Almacena información de servicio, como estilos o título de página.
+- p: Define un parrafo
+- span: Define un elemento de linea.
+- img: Insertar una imagen.
+- a: Agrega un enlace.
+- hr: Crea una línea horizontal.
+- br:	Establece un salto de línea.
+- b, strong:	Pone un texto en negrita.
+- i: Pone en cursiva un texto.
+- u: Subraya un texto.
+- s, strike: Aplica el formato de tachado.
+- label: Especifica una etiqueta de texto para la etiqueta. 
+- font:	Especifica estilos de fuente
+- small: Disminuye el tamaño de fuente en uno en comparación con el texto sin formato
+- li: Crea un elemento de lista
+- ul: Crea una lista con viñetas (desordenada)
+- table: Crea una tabla
+-
+-
+-
+-
+-
+-
+-
+-
