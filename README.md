@@ -14,4 +14,19 @@
 - article: Define contenido independiente de la web.
 - aside:Dentro de estas etiquetas suele alojarse el contenido adicional de la web.
 - h1,h2,h3,h4,h5,h6: Son etiquetas HTML muy importantes, ya que son usadas para jerarquizar el contenido de la web.
+- header: Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc.
+- foteer: Usadas para definir el pie de página.
+- embed: Usada para integrar una aplicación o contenido interactivo externo que no suele ser HTML. 
+- object: Utilizada llamar a un recurso externo de la web. Este recurso será tratado como una imagen, o un recurso externo para ser procesado por un plugin.
+- video: Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas.
+- audio: Usada para cargar en una web un archivo de audio o stream de audio.
+- iframe: Es una etiqueta que sirve para anidar otro documento HTML dentro del documento principal.
+- table: Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas.
+- caption: Usada para indicar el título de la tabla.
+-
+-
+-
+-
+-
+-
 -
