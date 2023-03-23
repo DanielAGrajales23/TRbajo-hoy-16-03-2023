@@ -1,4 +1,4 @@
-let Nombre, Correo , Mensaje;
+let Nombre, correo , Mensaje;
 
 let Formulario = document.getElementById("form")
 
@@ -8,8 +8,8 @@ Formulario.addEventListener ("submit" , (e)=>{
 })
 
 function leeDatos(){
-    Nombre = document.getElementById("Nombre").value
-    Correo = document.getElementById("Correo").value
+    Nombre = document.getElementById("nombre").value
+    Correo = document.getElementById("correo").value
     Mensaje = document.getElementById("Textarea").value
     ValidarData(Nombre,Correo,Mensaje)
     GuardarLocalStorage(Nombre,Correo,Mensaje)
@@ -19,12 +19,11 @@ function leeDatos(){
 function ValidarData(Nombre,Correo,Mensaje){
     if(Nombre.length=0 || Correo.length==0 || Mensaje.length==0){
         Swal.fire({
-            Title: "Error!",
-            Text:  "Do you want to continue",
-            icon:  "erorr",
-            confirmButtonText: "Cool",
-            iconColor: "Purple"
-        })  
+            title: 'Error!',
+            text: 'Do you want to continue',
+            icon: 'error',
+            confirmButtonText: 'ok'
+          })
     }
 }
 
@@ -40,5 +39,4 @@ function ListarData(){
     let CorreoUsu = localStorage.getItem("Correo")
     let MensajeUsu = localStorage.getItem("Correo")
 }
-
 

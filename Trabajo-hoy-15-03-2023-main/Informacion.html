@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,61 @@
     <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <head>        <nav>
-        <ul class="menu">
-            <li></li>
-            <li></li>
-            <li class="lista"><a href="index.html">Inicio</a></li>
-            <li class="lista"><a href="Informacion.html">Información</a></li>
-            <li class="lista lista-r"><a href="contactenos.html">Contactenos</a></li>
-        </ul>
-    </nav></head>
+
+    <head>
+        <nav>
+            <ul class="menu">
+                <li></li>
+                <li></li>
+                <li class="lista"><a href="index.html">Inicio</a></li>
+                <li class="lista"><a href="Informacion.html">Información</a></li>
+                <li class="lista lista-r"><a href="contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </head>
     <main>
         <form action="" id="form">
             <div id="container">
                 <div>
                     <label for="">Propietario del vehiculo</label><br>
-                    <input type="text">
+                    <input type="text" placeholder="Propietario del vehiculo"  id="Propietario">
                 </div>
 
                 <div>
                     <label for="">Modelo del vehiculo</label><br>
-                    <input type="text">
+                    <input type="text" placeholder="Modelo del vehiculo" id="Modelo">
                 </div>
 
                 <div>
                     <div id="info2">
-                        <label for="">Placa</label>
-                        <input type="text">
+                        <label for="">Placa del vehiculo</label>
+                        <input type="text" placeholder="NN-NN-LL"  id="Placa">
                         <div>
                             <label for="">Tipo de vehiculo</label>
-                            <input type="text">
+                            <input type="text" placeholder="Carro o Moto" id="Tipodevehiculo">
                         </div>
                     </div>
-
-                </div> 
+                    <div id="info3">
+                        <label for="">Fecha de entrada</label>
+                        <input type="date" placeholder="dd/mm/aaa" id="Fecha">
+                        <label for="">Hora de Inicio</label>
+                        <input type="time" placeholder="hh:mm" id="Horas">
+                        <label for="">Cantidad de horas</label>
+                        <input type="text" placeholder="Cantidad" id="Cantidad">
+                    </div>
 
                 </div>
+
             </div>
+            </div>
+            <button type="submit">Enviar</button>
         </form>
     </main>
+    <script src="./script2/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
